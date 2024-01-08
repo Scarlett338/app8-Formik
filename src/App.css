@@ -1,0 +1,66 @@
+body, html{
+    background-color: rgb(80, 80, 80);
+    box-sizing: border-box;
+}
+
+input, select, option{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 5px #ace2e6 solid;
+
+}
+
+select{
+    width: 214px;
+    height: 42px;
+}
+
+input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+}
+
+span{
+    position: relative;
+    top: -2px;
+}
+
+.input-error{
+    border: 5px #fc8181 solid;
+    border-color: #fc8181;
+
+}
+.error{
+    color: #fc8181;
+}
+
+label{
+    text-align: left;
+}
+
+form{
+    color: aliceblue;
+    margin: 100px auto 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+form > div{
+    padding: 10px;
+    text-align: left;
+}
+
+form button{
+    width: 200px;
+    height: 30px;
+    background-color: #fc8181;
+}
+
+button:disabled{
+    opacity: 0.35;
+    color: red;
+} 
